@@ -1,0 +1,11 @@
+framework module AMoAdWebViewSupport {
+  umbrella header "AMoAdWebViewSupport.h"
+
+  export *
+  module * { export * }
+}
+
+module AMoAdWebViewSupport.Swift {
+    header "AMoAdWebViewSupport-Swift.h"
+    requires objc
+}
